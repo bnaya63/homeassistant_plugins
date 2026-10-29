@@ -1,0 +1,28 @@
+{
+    "name": "Gree AC",
+    "domain": "gree_ac",
+    "io_config_flow": True,
+    "codeowners": [],
+    "domain_blacklist": [],
+    "dependencies": [],
+    "language": "en",
+    "integration_type": "local_push",
+    "loggers": [],
+    "requirements": [],
+    "max_firmware": [],
+    "min_firmware": [],
+    "configuration": "yaml",
+    "domain": "gree_ac",
+    "version": "1.0.0",
+    "attributes": {},
+    "entities": [
+        {
+            "name": "climate",
+            "path": "climate/__init__.py",
+            "platform": "climate"
+        }
+    ],
+    "Capabilities": {
+        "climate": true
+    }
+}

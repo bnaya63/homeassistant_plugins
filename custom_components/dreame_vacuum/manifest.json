@@ -1,0 +1,27 @@
+{
+    "name": "Dreame Vacuum",
+    "domain": "dreame_vacuum",
+    "codeowners": [],
+    "domain_blacklist": [],
+    "dependencies": [],
+    "language": "en",
+    "integration_type": "local_push",
+    "loggers": [],
+    "requirements": [],
+    "max_firmware": [],
+    "min_firmware": [],
+    "configuration": "yaml",
+    "domain": "dreame_vacuum",
+    "version": "1.0.0",
+    "attributes": {},
+    "entities": [
+        {
+            "name": "vacuum",
+            "path": "__init__.py",
+            "platform": "vacuum"
+        }
+    ],
+    "Capabilities": {
+        "vacuum": true
+    }
+}
